@@ -6,7 +6,7 @@ namespace HelloWorld_ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine($"Hello {Environment.UserName}!");
         }
     }
 }
