@@ -8,6 +8,9 @@ namespace HelloWorld_ConsoleApp
         {
             Console.WriteLine($"Hello {Environment.UserName}!");
             Console.WriteLine("It's nice to meet you!");
+
+            Console.WriteLine("How are you?\n > ");
+            string feeling = Console.ReadLine();
         }
     }
 }
