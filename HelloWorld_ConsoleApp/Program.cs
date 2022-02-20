@@ -11,7 +11,8 @@ namespace HelloWorld_ConsoleApp
 
             Console.WriteLine("How are you?\n > ");
             string answer = Console.ReadLine();
-            Console.WriteLine(answer+"ist deine Antwort???");
+
+            Console.WriteLine($"You're {answer}? That's good to know");
         }
     }
 }
