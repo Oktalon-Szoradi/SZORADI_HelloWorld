@@ -10,7 +10,7 @@ namespace HelloWorld_ConsoleApp
             Console.WriteLine("It's nice to meet you!");
 
             Console.WriteLine("How are you?\n > ");
-            string feeling = Console.ReadLine();
+            string response = Console.ReadLine();
         }
     }
 }
