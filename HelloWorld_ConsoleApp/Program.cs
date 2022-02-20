@@ -13,6 +13,7 @@ namespace HelloWorld_ConsoleApp
             string answer = Console.ReadLine();
 
             Console.WriteLine($"You're {answer}? That's good to know");
+            Console.WriteLine("irgendetwas");
         }
     }
 }
